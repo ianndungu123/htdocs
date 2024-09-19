@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: right;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+.aims {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+.aims h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.aims ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aims li {
+    margin-bottom: 20px;
+}
+
+.aims i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.goals {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.goals h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.goals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.goals li {
+    margin-bottom: 20px;
+}
+
+.goals i {
+    font-size: 24px;
+    margin-right: 10px;
+}

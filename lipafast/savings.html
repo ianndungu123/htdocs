@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Account</title>
+    <link rel="stylesheet" href="savings.css">
+</head>
+<body>
+    <header>
+        <h1>Savings Account</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="check-balance-form">
+                <fieldset>
+                    <legend>Check Balance</legend>
+                    <label for="account-id">Account ID:</label>
+                    <input type="text" id="account-id" name="account-id" placeholder="Enter Account ID" required>
+                    <br><br>
+                    <button type="submit" id="check-balance-button">Check Balance</button>
+                </fieldset>
+            </form>
+            <div id="balance-response"></div>
+        </div>
+    </main>
+    <script src="savings.js"></script>
+</body>
+</html>
